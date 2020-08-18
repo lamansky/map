@@ -1,0 +1,28 @@
+{
+  "name": "lamansky/map",
+  "description": "An iterable key-value collection class.",
+  "type": "library",
+  "keywords": [
+    "map",
+    "key-value",
+    "collection"
+  ],
+  "homepage": "https://github.com/lamansky/map",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Fr. John Lamansky",
+      "homepage": "https://lamansky.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.0"
+  },
+  "require-dev": {
+    "lamansky/phpcs": "^1",
+    "phpunit/phpunit": "^9"
+  },
+  "autoload": {
+    "psr-4": {"Lamansky\\Map\\": "src/"}
+  }
+}
